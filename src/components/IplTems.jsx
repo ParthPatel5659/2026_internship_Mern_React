@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export const IplTems = () => {
 
     var teams=[
-        { teamId:1,teamName:"Chennai Super Kings"},
+        {teamId:1,teamName:"Chennai Super Kings"},
         {teamId:2,teamName:"Mumbai Indians"},
         {teamId:3,teamName:"Royal Challengers Bangalore"},
         {teamId:4,teamName:"Kolkata Knight Riders"},
@@ -21,7 +21,7 @@ export const IplTems = () => {
            <h1>IplTems</h1>
            {teams.map((team)=>{
             return <li>
-                <Link to={`/teamdetail/${team.teamId}`}> {team.teamName} </Link>
+                <Link to={`/teamdetail/${team.teamName}`}> {team.teamName} </Link>
             </li>
            })}
     </div>

@@ -23,6 +23,10 @@ import { ErrorNotFound } from './components/ErrorNotFound';
 import { Watch } from './components/Watch';
 import { TeamDetail } from './components/TeamDetail';
 import { IplTems } from './components/IplTems';
+import { FunctionDemo1 } from './components/FunctionDemo1';
+import { UsestateDemo1 } from './components/UsestateDemo1';
+import { UsestateDemo2 } from './components/UsestateDemo2';
+import { UsestateDemo3 } from './components/UsestateDemo3';
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 // import './App.css'
@@ -45,6 +49,10 @@ function App() {
             <Route path="/watch/:name" element={<Watch/>}></Route>
             <Route path="/IPLtems" element={<IplTems/>}></Route>
             <Route path="/teamdetail/:name" element={<TeamDetail/>}></Route>
+            <Route path="/functiondemo1" element={<FunctionDemo1/>}></Route>
+            <Route path="/usestatedemo1" element={<UsestateDemo1/>}></Route>
+            <Route path="/usestatedemo2" element={<UsestateDemo2/>}></Route>
+            <Route path="/usestatedemo3" element={<UsestateDemo3/>}></Route>
             <Route path="/*" element={<ErrorNotFound/>}></Route>
        </Routes>
     </div>
