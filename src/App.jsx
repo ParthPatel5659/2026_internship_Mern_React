@@ -27,6 +27,8 @@ import { FunctionDemo1 } from './components/FunctionDemo1';
 import { UsestateDemo1 } from './components/UsestateDemo1';
 import { UsestateDemo2 } from './components/UsestateDemo2';
 import { UsestateDemo3 } from './components/UsestateDemo3';
+import { Employees } from './components/Employees';
+import { InputDemo } from './components/InputDemo';
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 // import './App.css'
@@ -53,6 +55,8 @@ function App() {
             <Route path="/usestatedemo1" element={<UsestateDemo1/>}></Route>
             <Route path="/usestatedemo2" element={<UsestateDemo2/>}></Route>
             <Route path="/usestatedemo3" element={<UsestateDemo3/>}></Route>
+            <Route path="/employees" element={<Employees/>}></Route>
+            <Route path="/inputdemo" element={<InputDemo/>}></Route>
             <Route path="/*" element={<ErrorNotFound/>}></Route>
        </Routes>
     </div>
