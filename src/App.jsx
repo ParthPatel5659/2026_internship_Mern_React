@@ -29,6 +29,10 @@ import { UsestateDemo2 } from './components/UsestateDemo2';
 import { UsestateDemo3 } from './components/UsestateDemo3';
 import { Employees } from './components/Employees';
 import { InputDemo } from './components/InputDemo';
+import { InputDemo2 } from './components/Input/InputDemo2';
+import { FormDemo1 } from './components/Form/FormDemo1';
+import { FormDemo2 } from './components/Form/FormDemo2';
+import { FormDemo3 } from './components/Form/FormDemo3';
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 // import './App.css'
@@ -57,6 +61,10 @@ function App() {
             <Route path="/usestatedemo3" element={<UsestateDemo3/>}></Route>
             <Route path="/employees" element={<Employees/>}></Route>
             <Route path="/inputdemo" element={<InputDemo/>}></Route>
+            <Route path="/inputdemo2" element={<InputDemo2/>}></Route>
+            <Route path="/formdemo1" element={<FormDemo1/>}></Route>
+            <Route path="/formdemo2" element={<FormDemo2/>}></Route>
+            <Route path="/formdemo3" element={<FormDemo3/>}></Route>
             <Route path="/*" element={<ErrorNotFound/>}></Route>
        </Routes>
     </div>
