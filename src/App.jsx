@@ -38,6 +38,10 @@ import { FormDemo5 } from './components/Form/FormDemo5';
 import { FormDemo7 } from './components/Form/FormDemo7';
 import { FormDemo8 } from './components/Form/FormDemo8';
 import { FormWatch } from './components/Form/FormWatch';
+import { ApiDemo1 } from './components/api/ApiDemo1';
+import { ApiDemo2 } from './components/api/ApiDemo2';
+import { ApiDemo3 } from './components/api/ApiDemo3';
+import { ApiDemo4 } from './components/api/ApiDemo4';
 
 
 // import reactLogo from './assets/react.svg'
@@ -77,6 +81,10 @@ function App() {
            <Route path='/formwatch'  element={<FormWatch/>}></Route>
             <Route path='/formdemo7' element={<FormDemo7/>}></Route>
             <Route path="/formdemo8"  element={<FormDemo8/>}></Route>
+            <Route path='/apidemo1'   element={<ApiDemo1/>}></Route>
+            <Route path='/apidemo2'   element={<ApiDemo2/>}></Route>
+            <Route path='/apidemo3'   element={<ApiDemo3/>}></Route>
+            <Route path='/apidemo4'   element={<ApiDemo4/>}></Route>
             <Route path="/*" element={<ErrorNotFound/>}></Route>
        </Routes>
     </div>
