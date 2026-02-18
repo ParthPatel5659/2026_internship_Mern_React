@@ -42,6 +42,9 @@ import { ApiDemo1 } from './components/api/ApiDemo1';
 import { ApiDemo2 } from './components/api/ApiDemo2';
 import { ApiDemo3 } from './components/api/ApiDemo3';
 import { ApiDemo4 } from './components/api/ApiDemo4';
+import { ApiDemo5 } from './components/api/ApiDemo5';
+import { OmdbSearch } from './components/api/OmdbSearch';
+import { MovieDetail } from './components/api/MovieDetail';
 
 
 // import reactLogo from './assets/react.svg'
@@ -85,6 +88,9 @@ function App() {
             <Route path='/apidemo2'   element={<ApiDemo2/>}></Route>
             <Route path='/apidemo3'   element={<ApiDemo3/>}></Route>
             <Route path='/apidemo4'   element={<ApiDemo4/>}></Route>
+            <Route path='/apidemo5'   element={<ApiDemo5/>}></Route>
+            <Route path='/omdbsearch' element={<OmdbSearch/>}></Route>
+            <Route path='/movie/:imdbId' element={<MovieDetail/>}></Route>
             <Route path="/*" element={<ErrorNotFound/>}></Route>
        </Routes>
     </div>
